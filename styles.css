@@ -31,10 +31,11 @@ main{
     justify-content: center;
     width: 50%;
     height: 70%;
-    background-color:rgb(238, 236, 236);
+    background-color:rgb(221, 221, 221);
     border-radius: 25px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
 }
+
 
 div{
     margin-bottom: 3%;
@@ -241,7 +242,7 @@ input[type="checkbox"] {
         margin-bottom: 2px;
     }
     footer{
-        display: none;
+        height: 5%
     }
 }
 
