@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=], initial-scale=1.0">
+        <title>Form SignUp</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+
+        <main>
+                <form action=".">
+                    <h1>Cadastro de clientes</h1>
+
+                    <div class="ContainerInput">
+                        <label for="InputNome">
+                            <label class="Obrigatorio">*</label> 
+                        Digite seu nome: 
+                        </label> 
+                    
+                        <input type="text" class="InputNome" id="InputNome">
+                    </div>
+
+                    <div class="ContainerSexo">
+                        <label for="Sexo"> 
+                            <label class="Obrigatorio">*</label>     
+                            Sexo: 
+                        </label>  
+                        <select name="Sexo">
+                            <option></option>
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="ContainerInput">
+                        <label for="endereco">
+                            <label class="Obrigatorio">*</label> 
+                            Endereço:
+                        </label>
+                        <input type="text" id="Endereco">
+                    </div>
+
+                    <div class="ContainerInput">
+                        <label for="telefone">
+                            <label class="Obrigatorio">*</label> 
+                            Telefone:
+                        </label>
+                        <input type="tel" id="telefone">
+                    </div>
+
+                    <div class="ContainerData">
+                        <label for="data"> 
+                            <label class="Obrigatorio">*</label> 
+                            Data de Nascimento:
+                        </label>
+                        <input type="date" id="data">
+                    </div>
+
+                    <div class="ContainerCheckbox">
+                        <input type="checkbox" id="Termos">
+                        <label for="Termos"> <a href="">Termos de Cadastro</a> </label>
+                    </div>
+
+                    <button class="ButtonCadastrar">Cadastrar</button>
+                </form>
+        </main>
+
+        <footer>
+               Todos os direitos reservados 2021
+        </footer>
+        
+    </body>
+</html>

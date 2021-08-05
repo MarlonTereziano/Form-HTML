@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'AGENCYR';
+    src: url('./assets/fonts/AFB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AGENCYB';
+    src: url('./assets/fonts/AFB.ttf') format('truetype');
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'AGENCYR', Arial;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5429cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    background-color:rgb(238, 236, 236);
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
+}
+
+div{
+    margin-bottom: 3%;
+}
+
+label{
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input{
+    background:none;
+    border: 1px solid;
+    border-radius:5px;
+    height: 30px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 60%;
+    height: 90%;
+}
+
+form h1{
+    padding-bottom: 10%;
+}
+
+
+form .HeaderForm{
+    display: flex;
+    position: absolute;
+    top: 24%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+
+form button:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+
+form .ContainerInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form .ContainerInput input{
+    width: 60%;
+}
+
+form .ContainerSexo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form .ContainerSexo select{
+    margin-right: 22.5%;
+    box-decoration-break: unset;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    background: none;
+}
+
+form .ContainerData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form .ContainerData input{
+    width: 60%;
+}
+
+
+form .ContainerCheckbox{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height:10%;
+}
+
+form .ContainerCheckbox label{
+    padding:5px;
+}
+
+
+form .ButtonCadastrar{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 26px;
+    width: 100%;
+    height: 15%;
+    background-color: #40cc33;
+    color:white;
+}
+
+footer{
+    font-size: 20px;
+    font-style: bold;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    background-color: black;
+    color: white;
+}
+
+.Title{
+    margin-bottom: 1rem;
+}
+
+input{
+    padding: 5px;
+    font-family: Arial;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+}
+  
+.Obrigatorio{
+    color:red;
+    margin: 0;
+}
+
+.Select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Select button{
+    margin: 5%;
+    width: 40%;
+    height: 30%;
+    border-radius: 35px;
+    background-color:#40cc33;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+@media screen and (max-width: 1380px) {
+    main{
+        width: 60%;
+        height: 90%;
+    }
+    form{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    main{
+        width: 80%;
+        height: 90%;
+    }
+    form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 637px){
+    body{
+        overflow-y: auto;
+    }
+    form{
+        width: 90%;
+        /* overflow-y: auto; */
+    }
+
+    main{
+        width: 90%;
+    }
+}
+
+@media screen and (max-height: 637px){
+    h1{
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    footer{
+        display: none;
+    }
+}
+
+
+
+

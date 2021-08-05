@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=], initial-scale=1.0">
+        <title>Form SignUp</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+
+        <main>
+                <form action=".">
+                    <h1>Cadastro de Produtos</h1>
+
+                    <div class="ContainerInput">
+                        <label for="InputNome">
+                            <label class="Obrigatorio">*</label> 
+                        Nome do Produto: 
+                        </label> 
+                    
+                        <input type="text" class="InputNome" id="InputNome">
+                    </div>
+
+                    <div class="ContainerData">
+                        <label for="data"> 
+                            <label class="Obrigatorio">*</label> 
+                            Data de Entrada:
+                        </label>
+                        <input type="date" id="data">
+                    </div>
+
+                    <div class="ContainerSexo">
+                        <label for="Sexo"> 
+                            <label class="Obrigatorio">*</label>     
+                            Tipo: 
+                        </label>  
+                        <select name="Sexo">
+                            <option></option>
+                            <option>Alimentos</option>
+                            <option>Utensílio</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="ContainerInput">
+                        <label for="preco">
+                            <label class="Obrigatorio">*</label> 
+                            Preço:
+                        </label>
+                        <input type="text" id="preco">
+                    </div>
+
+
+                    <div class="ContainerCheckbox">
+                        <input type="checkbox" id="Termos">
+                        <label for="Termos"> <a href="">Termos de Cadastro</a> </label>
+                    </div>
+
+                    <button class="ButtonCadastrar">Cadastrar</button>
+                </form>
+        </main>
+
+        <footer>
+               Todos os direitos reservados 2021
+        </footer>
+        
+    </body>
+</html>
